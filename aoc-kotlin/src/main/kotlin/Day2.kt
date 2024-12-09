@@ -1,7 +1,6 @@
 import kotlin.math.abs
 
-class Day2 : Day() {
-
+class Day2 : Day(2) {
 
     override fun Part1(input: String) {
         val lines = input.split("\r\n|\n".toRegex())
@@ -56,7 +55,5 @@ class Day2 : Day() {
 
 fun main() {
     val day = Day2()
-    val input =  day.GetInput(2)
-    day.Part1(input)
-    day.Part2(input)
+    day.solveDay()
 }

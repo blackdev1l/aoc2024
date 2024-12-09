@@ -1,6 +1,6 @@
 import kotlin.math.abs
 
-class Day1 : Day() {
+class Day1 : Day(1) {
     val example = """3   4
 4   3
 2   5
@@ -74,7 +74,7 @@ class Day1 : Day() {
 
 
 fun main() {
-    Day1().solveDay(1)
+    Day1().solveDay()
 
 
 }
